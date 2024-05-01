@@ -1,0 +1,38 @@
+.page1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aqua;
+}
+
+#Getcontacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid red 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(220, 206, 206);
+}
+
+

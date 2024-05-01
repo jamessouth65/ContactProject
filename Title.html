@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <header><h1>Contacts</h1></header>
+  <section class="selection">
+    <body class="page1">
+      <h1>Sort by:</h1>
+      <div>
+        <input type="radio" id="FirstAZsort" name="sort" checked />
+        <label for="firstazsort">First Name A-Z</label>
+      </div>
+      <div>
+        <input type="radio" id="LastAZsort" name="sort" />
+        <label for="lastazsort">Last Name A-Z</label>
+      </div>
+      <div>
+        <input type="radio" id="FirstZAsort" name="sort" />
+        <label for="firstazsort">First Name Z-A</label>
+      </div>
+      <div>
+        <input type="radio" id="LastZAsort" name="sort" />
+        <label for="lastazsort">Last Name Z-A</label>
+      </div>
+    </body>
+    <nav>
+      <a href="newcontact.html">Add New Contact</a>
+    </nav>
+    <button onclick="Getcontacts" id="Getcontacts">Show Contacts</button>
+  </section>
+</html>
